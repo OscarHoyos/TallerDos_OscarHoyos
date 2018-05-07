@@ -1,0 +1,26 @@
+{
+  "name": "hoyos_oscar_tallerdos",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "consolidate": "^0.15.1",
+    "express": "^4.16.3",
+    "handlebars": "^4.0.11",
+    "mongo": "^0.1.0"
+  },
+  "repository": {
+    "type": "gut",
+    "url": "git+https://github.com/OscarHoyos/pruebaR.git"
+  },
+  "bugs": {
+    "url": "https://github.com/OscarHoyos/pruebaR/issues"
+  },
+  "homepage": "https://github.com/OscarHoyos/pruebaR#readme",
+  "description": ""
+}
