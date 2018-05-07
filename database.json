@@ -1,0 +1,8 @@
+{
+    "productos" : 
+     [
+       {"Naga Hex": "mouse","tipo": "laser", "color": "Chroma"},
+       {"Kraken Pro": "mouse","tipo": "laser", "color": "verde"},
+       {"otro producto":"verde","tipo": "laser", "color": "verde"}
+   ]
+   }
