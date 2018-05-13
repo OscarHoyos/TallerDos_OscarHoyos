@@ -1,0 +1,56 @@
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/CSS/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400" rel="stylesheet">
+    
+    
+    <title>Razer</title>
+</head>
+<header>
+<section class="bar">
+    <div class="area">
+    <div class="logo">
+        <img src="img/logo.png" width="25%" alt="">
+    </div>
+    <div class="menu">
+        <a class="Dr" href="#">Drivers</a>
+        <a class="Pr" href="#">Productos</a>
+        <a class="Fo" href="#">Foro</a>
+
+       
+    </div>
+    <div class="buscar">
+        <img class="imgB" src="img/lupa.png" width="5%" alt="">
+    </div>
+    </div>
+</section>
+</header>
+<body>
+    <div class="all">
+        <div class="generalContainer">
+            <h1>{{local.Nombre}}</h1>
+            <p>{{local.Precio}}</p>
+            <p>{{local.Color}}</p>
+            <p>{{local.Tipo}}</p>
+        </div>
+    </div>
+
+    <div class="productosContainer">
+    {{#each RazerProductos}}
+    <div class="productoContainer">
+
+        <div class="RazerProductos" color="{{Color}}" >
+            <a href="/RazerProductos/{{Nombre}}">
+                <img src="{{image}}" alt="{{Nombre}}">
+            </a><button> &#9951; ${{Precio}}</button>
+        </div>    
+    </div>
+    {{/each}}
+
+    </div>
+</body>
+</html>

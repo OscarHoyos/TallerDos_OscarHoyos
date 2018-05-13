@@ -1,8 +1,23 @@
 {
-    "productos" : 
+    "RazerProductos": 
      [
-       {"Naga Hex": "mouse","tipo": "laser", "color": "Chroma"},
-       {"Kraken Pro": "mouse","tipo": "laser", "color": "verde"},
-       {"otro producto":"verde","tipo": "laser", "color": "verde"}
+       {"Nombre": "Razer_BlackWidow_X_Chroma_Gunmetal_Grey",
+        "Tipo": "Teclado", 
+        "Color": "Chroma",
+        "Precio": 149.99,
+        "Imagen": "/img/razer_blackWidow_Chroma_Gunmetal_Grey.png"},
+
+       {"Nombre": "Razer_BlackWidow_X_Chroma_Mercury_White",
+        "Tipo": "Teclado",
+        "Color": "verde",
+        "Precio": 149.99,
+        "Imagen": "/img/razer_blackWidow_Chroma_Mercury_white.png"},
+
+
+       {"Nombre":"Razer_BlackWidow_X_Chroma",
+        "Tipo": "Teclado", 
+        "Color": "verde",
+        "Precio": 149.99,
+        "Imagen": "/img/razer_blackWidow_Chroma_Mercury_white.png"}
    ]
    }

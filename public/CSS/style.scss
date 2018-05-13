@@ -1,0 +1,88 @@
+$fuente-principal:  'Source Sans Pro', sans-serif;
+$color-principal: #2B2B2B;
+$color-tipografia: #ADADAD;
+$color-Bboton: #00e600;
+$color-TipoB: white;
+$color-sec: #191919;
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.bar{
+    background-color: $color-principal;
+    width: 100%;
+    height: 50px;
+    .area{
+        margin: auto;
+        width: 80%;
+        height: 100%;
+        
+        display: flex;
+        align-content: stretch;
+           justify-content: space-between;
+        .logo{
+            display: flex;
+            width: 40%;
+            height: 100%;
+            
+        } 
+        .menu{
+            text-align: center;
+            width: 20%;
+            height: 100%;
+            font: 100% $fuente-principal;
+            display: inline-flex;
+            margin: auto;
+            a{
+                position: relative;
+                bottom: -22px;
+                color: #ADADAD;
+                text-decoration: none;
+                margin: 0 50px;
+            }
+        }
+        .buscar{
+            
+            width: 40%;
+            height: 100%;
+            .imgB{
+                position: relative;
+                float: right;
+                top: 10px;
+                right: 20;
+            }
+           
+        }
+
+        
+    }
+}
+
+.productosContainer {
+    margin-left: 20%;
+    .productoContainer {
+        display: inline-block;
+        .RazerProductos {
+            display: flex;
+            flex-direction: column;
+            width: 200px;
+            margin-left: 170px;
+            margin-top: 100px;
+            img {
+                height: 200px;
+            }
+            button {
+                cursor: pointer;
+                background-color: $color_primario;
+                margin: 20px 0 20px 0;
+                color: white;
+                border-radius: 10px;
+                border: solid 0px blue;
+                height: 40px;
+                font-size: 20px;
+            }
+        }
+    }
+}

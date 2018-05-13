@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAYA,AAAA,IAAI,CAAC;EACD,WAAW,EAAE,KAAK;CAIrB",
+    "sources": [
+        "producto_vis.scss"
+    ],
+    "names": [],
+    "file": "producto_vis.css"
+}
