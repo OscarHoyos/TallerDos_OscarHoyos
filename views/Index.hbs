@@ -1,8 +1,7 @@
-
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="/CSS/style.css">
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400" rel="stylesheet">
@@ -30,27 +29,21 @@
 </section>
 </header>
 <body>
-    <div class="all">
-        <div class="generalContainer">
-            <h1>{{local.Nombre}}</h1>
-            <p>{{local.Precio}}</p>
-            <p>{{local.Color}}</p>
-            <p>{{local.Tipo}}</p>
-        </div>
-    </div>
+    
 
     <div class="productosContainer">
-    {{#each RazerProductos}}
+    {{#each razerproductos}}
     <div class="productoContainer">
 
-        <div class="RazerProductos" color="{{Color}}" >
-            <a href="/RazerProductos/{{Nombre}}">
-                <img src="{{image}}" alt="{{Nombre}}">
+        <div class="producto" color="{{Color}}" >
+            <a href="/razerproductos/{{nombre}}">
+                <img src="{{razerproductos.imagen}}" alt="{{nombre}}">
             </a><button> &#9951; ${{Precio}}</button>
         </div>    
     </div>
     {{/each}}
 
     </div>
+    
 </body>
 </html>

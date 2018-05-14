@@ -16,7 +16,7 @@ const express = require ("express"),
     MongoClient.connect('mongodb://localhost:27017', function (err, client) {
         if (err) throw err;
     
-        db = client.db('local');
+        db = client.db('productoR');
     
         app.listen(3000);
     });
@@ -25,26 +25,26 @@ const express = require ("express"),
 app.get("/",(req, res) =>{
 
     
-    var RazerProductos = db.collection('RazerProductos').find();
+    var razerproductos = db.collection('razerproductos').find();
 
-    RazerProductos.toArray((err, result) => {
-       // console.log(RazerProductos);
-        res.render("Index", {
-            RazerProductos : result
+    razerproductos.toArray((err, result) => {
+       console.log(razerproductos);
+        res.render("index", {
+            razerproductos : result
         })
     });
 });
 
-app.get("/RazerProductos/:Nombre", (req, res) => {
+app.get("/razerproductos/:nombre", (req, res) => {
     console.log("hola");
-    db.collection('RazerProductos').find (
+    db.Collection('razerproductos').find (
         {
-            Nombre: req.params.Nombre
+            nombre: req.params.nombre
         }
     ).toArray((err, result) => {
         console.log(result[0]);
-        res.render('Index', {
-            local: result[0]
+        res.render('razerproductos', {
+            productoR: result[0]
         });
     });
 });

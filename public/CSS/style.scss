@@ -62,9 +62,11 @@ $color-sec: #191919;
 
 .productosContainer {
     margin-left: 20%;
+    
     .productoContainer {
         display: inline-block;
-        .RazerProductos {
+        
+        .producto {
             display: flex;
             flex-direction: column;
             width: 200px;
