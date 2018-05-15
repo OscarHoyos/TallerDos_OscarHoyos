@@ -29,6 +29,7 @@
 </section>
 </header>
 <body>
+    <h2>Carrito: <span class="carrito">0</span></h2>
     <div class="sortby priceSort">
             <h3 class="titleSort">Price</h3>
             <a href="/?precio=9.95&precio=150.99"><h2>9.95 - 150.99</h2></a>
@@ -69,6 +70,8 @@
     <div class="productosContainer">
        
     {{#each razerproductos}}
+    <div style="flex: 1 1 40%"
+                data-id="{{this._id}}">
     <div class="productoContainer">
 
         <div class="producto" color="{{Color}}" >
@@ -76,10 +79,13 @@
                 <img src="{{imagen}}" alt="{{nombre}}">
             </a><button> &#9951; ${{Precio}}</button>
         </div>    
+        <button class="agregar">Agregar</button>
+    </div>
     </div>
     {{/each}}
 
     </div>
-    
+    <script src="js/cliente.js"></script>
+    <script src="js/productosC.js"></script>
 </body>
 </html>

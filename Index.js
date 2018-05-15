@@ -45,6 +45,10 @@ app.get("/",(req, res) =>{
          if (req.query.color) 
          razerproductos.filter({color : req.query.color});
 
+         app.get('/checkout', (req, res) => {
+            res.render('checkout');
+        });
+
     razerproductos.toArray((err, result) => {
 
 
@@ -67,6 +71,19 @@ app.get("/razerproductos/:nombre", (req, res) => {
             productoR: result[0]
         });
     });
+});
+
+app.get('/productosPorIds', (req, res) => {
+    console.log(req.query.ids);
+    var arreglo = req.query.ids.split(',');
+    arreglo = arreglo.map(function(nombre) {
+        return new ObjectID(nombre);
+    });
+    var prod = db.collection('razerproductos')
+        .find({ _id: { $in: arreglo } })
+        .toArray((err, result) => {
+            res.send(result);
+        });
 });
 
 
