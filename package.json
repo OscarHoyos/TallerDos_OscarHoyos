@@ -14,7 +14,7 @@
     "mongo": "^0.1.0"
   },
   "repository": {
-    "type": "gut",
+    "type": "git",
     "url": "git+https://github.com/OscarHoyos/TallerDos_OscarHoyos.git"
   },
   "bugs": {

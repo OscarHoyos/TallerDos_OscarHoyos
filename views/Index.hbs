@@ -29,15 +29,51 @@
 </section>
 </header>
 <body>
-    
+    <div class="sortby priceSort">
+            <h3 class="titleSort">Price</h3>
+            <a href="/?precio=9.95&precio=150.99"><h2>9.95 - 150.99</h2></a>
+            <a href="/?precio=19.95&precio=29.95"><h2>19.95 - 29.95</h2></a>
+            <a href="/?precio=29.95&precio=4999"><h2>29.95...+</h2></a>
+        </div>
 
+     <div class="sortby sideSort">
+            <h3 class="titleSort">tipo</h3>
+            <a href="/?tipo=Mouse"><h2>Mouse</h2></a>
+            <a href="/?tipo=Teclado"><h2>Teclado</h2></a>
+            <a href="/?tipo=Otro"><h2>Otro</h2></a>
+        </div>
+
+        <div class="colors">
+
+
+
+            <a href="/?color=Chroma">
+                <div  class="selectorColor gris">
+                    <h2>Chroma</h2>
+                </div>
+            </a>
+            <a href="/?color=verde">
+                <div  class="selectorColor verde">
+                    <h2>verde</h2>
+                </div>
+            </a>
+            <a href="/?color=Chroma">
+                <div  class="selectorColor azul">
+                    <h2>Chroma</h2>
+                </div>
+            </a>
+            
+            </a>
+            </div>
+            
     <div class="productosContainer">
+       
     {{#each razerproductos}}
     <div class="productoContainer">
 
         <div class="producto" color="{{Color}}" >
             <a href="/razerproductos/{{nombre}}">
-                <img src="{{razerproductos.imagen}}" alt="{{nombre}}">
+                <img src="{{imagen}}" alt="{{nombre}}">
             </a><button> &#9951; ${{Precio}}</button>
         </div>    
     </div>
