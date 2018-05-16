@@ -9,6 +9,7 @@ $color-sec: #191919;
 *{
     padding: 0;
     margin: 0;
+    text-decoration: none;
 }
 
 
@@ -47,7 +48,7 @@ $color-sec: #191919;
         }
         .buscar{
             
-            width: 40%;
+            width: 30%;
             height: 100%;
             .imgB{
                 position: relative;
@@ -57,14 +58,47 @@ $color-sec: #191919;
             }
            
         }
-
+        .car{
+            width: 10%;
+            height: 100%;
+            display: flex;
+        align-content: stretch;
         
+        .imgCa{
+            position: relative;
+                bottom: -12px;
+        }
+        .textoC{
+            height: 100%;
+            float: right;
+            font: 100% $fuente-principal;
+            color: $color-principal;
+            position: relative;
+                bottom: -22px;
+        .carrito{
+            height: 40%;
+            float: right;
+            font: 100% $fuente-principal;
+            color: $color-TipoB;
+            position: relative;
+            background-color: $color-Bboton;
+        border-radius: 10px;
+        padding: 4px;
+        text-align: center;
+                bottom: 11px;
+                left: -45px;
+        }
     }
+}
+    }
+    
 }
 .pagina{
     background-color: #191919;
+    height: auto;
     
 .filtros{
+    
     margin: auto;
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -94,7 +128,7 @@ $color-sec: #191919;
   -moz-box-sizing: content-box;
   box-sizing: content-box;
   width: 90%;
-  height: 150px;
+  height: 120px;
   padding: 20px;
   overflow: hidden;
   border: none;
@@ -110,13 +144,9 @@ $color-sec: #191919;
   box-shadow: 0 0 6px 2px rgba(0,0,0,0.5) , 0 1px 1px 0 rgba(0,0,0,0.3) ;
   text-shadow: 1px 1px 1px rgba(0,0,0,0.2) ;
 
-        .a{
-        .h2{
-            color: white;
-text-decoration: none;
-            font-family: 100% $fuente-principal;
-        }
-    }
+        
+    
+    
     }
 
     .tipo{
@@ -127,7 +157,7 @@ text-decoration: none;
   -moz-box-sizing: content-box;
   box-sizing: content-box;
   width: 90%;
-  height: 150px;
+  height: 90px;
   padding: 20px;
   overflow: hidden;
   border: none;
@@ -145,6 +175,7 @@ text-decoration: none;
     }
 
     .colors{
+        
         margin-top: 50px;
         text-align: center;
         margin: auto;
@@ -152,7 +183,7 @@ text-decoration: none;
   -moz-box-sizing: content-box;
   box-sizing: content-box;
   width: 90%;
-  height: 150px;
+  height: 170px;
   padding: 20px;
   overflow: hidden;
   border: none;
@@ -167,7 +198,82 @@ text-decoration: none;
   -webkit-box-shadow: 0 0 6px 2px rgba(0,0,0,0.5) , 0 1px 1px 0 rgba(0,0,0,0.3) ;
   box-shadow: 0 0 6px 2px rgba(0,0,0,0.5) , 0 1px 1px 0 rgba(0,0,0,0.3) ;
   text-shadow: 1px 1px 1px rgba(0,0,0,0.2) ; 
-  
+  .Negro{
+      text-align: center;
+      margin: auto;
+      width: 20%;
+      background: rgb(17, 17, 17);
+      border-radius: 50px;
+      text-decoration: none;
+      
+        
+      .nbr{
+        color: rgb(17, 17, 17);
+        font-family: 100% $fuente-principal;
+        text-decoration: none;
+     }
+    }
+    .Verde{
+        text-align: center;
+        margin: auto;
+        width: 20%;
+        background: $color-Bboton;
+        border-radius: 50px;
+        text-decoration: none;
+        
+          
+        .nbr1{
+          color: $color-Bboton;
+          font-family: 100% $fuente-principal;
+          
+       }
+      }
+      .Rosa{
+        text-align: center;
+        margin: auto;
+        width: 20%;
+        background: pink;
+        border-radius: 50px;
+        text-decoration: none;
+        
+          
+        .nbr2{
+          color: pink;
+          font-family: 100% $fuente-principal;
+          
+       }
+      }
+      .Blanco{
+        text-align: center;
+        margin: auto;
+        width: 20%;
+        background: white;
+        border-radius: 50px;
+        text-decoration: none;
+        
+          
+        .nbr3{
+          color: white;
+          font-family: 100% $fuente-principal;
+          
+       }
+      }
+      .Gris{
+        text-align: center;
+        margin: auto;
+        width: 20%;
+        background: grey;
+        border-radius: 50px;
+        text-decoration: none;
+        
+          
+        .nbr4{
+          color: grey;
+          font-family: 100% $fuente-principal;
+          
+       }
+      }
+  }
     }
 }
 
@@ -249,5 +355,4 @@ text-decoration: none;
 }
 }
 
-}
 }

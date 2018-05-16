@@ -1,6 +1,7 @@
 * {
   padding: 0;
   margin: 0;
+  text-decoration: none;
 }
 
 .bar {
@@ -42,7 +43,7 @@
 }
 
 .bar .area .buscar {
-  width: 40%;
+  width: 30%;
   height: 100%;
 }
 
@@ -53,8 +54,44 @@
   right: 20;
 }
 
+.bar .area .car {
+  width: 10%;
+  height: 100%;
+  display: flex;
+  align-content: stretch;
+}
+
+.bar .area .car .imgCa {
+  position: relative;
+  bottom: -12px;
+}
+
+.bar .area .car .textoC {
+  height: 100%;
+  float: right;
+  font: 100% "Source Sans Pro", sans-serif;
+  color: #2B2B2B;
+  position: relative;
+  bottom: -22px;
+}
+
+.bar .area .car .textoC .carrito {
+  height: 40%;
+  float: right;
+  font: 100% "Source Sans Pro", sans-serif;
+  color: white;
+  position: relative;
+  background-color: #00e600;
+  border-radius: 10px;
+  padding: 4px;
+  text-align: center;
+  bottom: 11px;
+  left: -45px;
+}
+
 .pagina {
   background-color: #191919;
+  height: auto;
 }
 
 .pagina .filtros {
@@ -89,7 +126,7 @@
   -moz-box-sizing: content-box;
   box-sizing: content-box;
   width: 90%;
-  height: 150px;
+  height: 120px;
   padding: 20px;
   overflow: hidden;
   border: none;
@@ -106,12 +143,6 @@
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
 }
 
-.pagina .filtros .precio .a .h2 {
-  color: white;
-  text-decoration: none;
-  font-family: 100% "Source Sans Pro", sans-serif;
-}
-
 .pagina .filtros .tipo {
   margin-top: 50px;
   text-align: center;
@@ -120,7 +151,7 @@
   -moz-box-sizing: content-box;
   box-sizing: content-box;
   width: 90%;
-  height: 150px;
+  height: 90px;
   padding: 20px;
   overflow: hidden;
   border: none;
@@ -145,7 +176,7 @@
   -moz-box-sizing: content-box;
   box-sizing: content-box;
   width: 90%;
-  height: 150px;
+  height: 170px;
   padding: 20px;
   overflow: hidden;
   border: none;
@@ -162,28 +193,99 @@
   text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
 }
 
-.pagina .sectionProducto {
+.pagina .filtros .colors .Negro {
+  text-align: center;
+  margin: auto;
+  width: 20%;
+  background: #111111;
+  border-radius: 50px;
+  text-decoration: none;
+}
+
+.pagina .filtros .colors .Negro .nbr {
+  color: #111111;
+  font-family: 100% "Source Sans Pro", sans-serif;
+  text-decoration: none;
+}
+
+.pagina .filtros .colors .Verde {
+  text-align: center;
+  margin: auto;
+  width: 20%;
+  background: #00e600;
+  border-radius: 50px;
+  text-decoration: none;
+}
+
+.pagina .filtros .colors .Verde .nbr1 {
+  color: #00e600;
+  font-family: 100% "Source Sans Pro", sans-serif;
+}
+
+.pagina .filtros .colors .Rosa {
+  text-align: center;
+  margin: auto;
+  width: 20%;
+  background: pink;
+  border-radius: 50px;
+  text-decoration: none;
+}
+
+.pagina .filtros .colors .Rosa .nbr2 {
+  color: pink;
+  font-family: 100% "Source Sans Pro", sans-serif;
+}
+
+.pagina .filtros .colors .Blanco {
+  text-align: center;
+  margin: auto;
+  width: 20%;
+  background: white;
+  border-radius: 50px;
+  text-decoration: none;
+}
+
+.pagina .filtros .colors .Blanco .nbr3 {
+  color: white;
+  font-family: 100% "Source Sans Pro", sans-serif;
+}
+
+.pagina .filtros .colors .Gris {
+  text-align: center;
+  margin: auto;
+  width: 20%;
+  background: grey;
+  border-radius: 50px;
+  text-decoration: none;
+}
+
+.pagina .filtros .colors .Gris .nbr4 {
+  color: grey;
+  font-family: 100% "Source Sans Pro", sans-serif;
+}
+
+.sectionProducto {
   display: flex;
 }
 
-.pagina .sectionProducto .productosContainer {
+.sectionProducto .productosContainer {
   margin-left: 12%;
   width: 78%;
 }
 
-.pagina .sectionProducto .productosContainer .algo {
+.sectionProducto .productosContainer .algo {
   display: inline-block;
   margin: auto;
 }
 
-.pagina .sectionProducto .productosContainer .algo .productoContainer {
+.sectionProducto .productosContainer .algo .productoContainer {
   display: inline-block;
   margin: auto;
   width: 100%;
   margin: 2px;
 }
 
-.pagina .sectionProducto .productosContainer .algo .productoContainer .producto {
+.sectionProducto .productosContainer .algo .productoContainer .producto {
   display: flex;
   flex-direction: column;
   width: 95%;
@@ -193,18 +295,18 @@
   background: #2B2B2B;
 }
 
-.pagina .sectionProducto .productosContainer .algo .productoContainer .producto img {
+.sectionProducto .productosContainer .algo .productoContainer .producto img {
   width: 100%;
   margin: auto;
 }
 
-.pagina .sectionProducto .productosContainer .algo .productoContainer .producto .precio {
+.sectionProducto .productosContainer .algo .productoContainer .producto .precio {
   font: 100% "Source Sans Pro", sans-serif;
   color: #00e600;
   text-align: center;
 }
 
-.pagina .sectionProducto .productosContainer .algo .productoContainer .producto .agregar {
+.sectionProducto .productosContainer .algo .productoContainer .producto .agregar {
   padding: 5px;
   -webkit-box-sizing: content-box;
   -moz-box-sizing: content-box;
@@ -229,12 +331,12 @@
   transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
 }
 
-.pagina .sectionProducto .productosContainer .algo .productoContainer .producto .agregar:hover {
+.sectionProducto .productosContainer .algo .productoContainer .producto .agregar:hover {
   color: white;
   background: 100% "Source Sans Pro", sans-serif;
 }
 
-.pagina .sectionProducto .productosContainer .algo .productoContainer .producto .agregar:active {
+.sectionProducto .productosContainer .algo .productoContainer .producto .agregar:active {
   border: 2px solid 100% "Source Sans Pro", sans-serif;
   background: 100% "Source Sans Pro", sans-serif;
   -webkit-transition: none;

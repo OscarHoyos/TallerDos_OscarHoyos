@@ -39,14 +39,14 @@
          {
           "nombre": "Razer_BlackWidow_X_Chroma",
          "tipo": "Teclado", 
-         "color": "Black",
+         "color": "Negro",
          "precio": 250.000,
          "imagen": "/img/Razer_BlackWidow_X_Chroma.png"},
 
          {
           "nombre": "Razer_BlackWidow_X_Tournament_Edition",
          "tipo": "Teclado", 
-         "color": "Black",
+         "color": "Negro",
          "precio": 300.000,
          "imagen": "/img/Razer_BlackWidow_X_Tournament_Edition.png"},
 
