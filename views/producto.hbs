@@ -26,18 +26,24 @@
     <div class="buscar">
         <img class="imgB" src="/img/lupa.png" width="5%" alt="">
     </div>
+    <div class="car">
+        <img class="imgCa" src="/img/car.png" width="25%" height="25" alt="">
+    <h2 class="textoC">Carrito: <span class="carrito">0</span></h2>
+    </div>
     </div>
 </section>
 </header>
 
 <body>
+    <section class="pag">
     <div class="verProducto">
         
-        <img src="{{productoR.imagen}}" alt="">
+        <img src="{{productoR.imagen}}" width="35%" alt="">
    
-<h1>{{fidget.name}}</h1>
+<h1 >{{fidget.name}}</h1>
+            <p class="nombreP"><b ></b>&nbsp;{{productoR.nombre}}</p>
+            </br>
             <p><b>Precio:</b>&nbsp;${{productoR.precio}}</p>
-            <p><b>Nombre:</b>&nbsp;{{productoR.nombre}}</p>
             <p><b>Color:</b>&nbsp;{{productoR.color}}</p>
             <p><b>Tipo:</b>&nbsp;{{productoR.tipo}}</p>
 </br>
@@ -45,7 +51,7 @@
             <p>{{productoR.descripcion}}</p>
             
  </div>
-
+</section>
 </body>
 
 </html>

@@ -1,6 +1,7 @@
 * {
   padding: 0;
   margin: 0;
+  font: 100% "Source Sans Pro", sans-serif;
 }
 
 .bar {
@@ -51,5 +52,63 @@
   float: right;
   top: 10px;
   right: 20;
+}
+
+.bar .area .car {
+  width: 10%;
+  height: 100%;
+  display: flex;
+  align-content: stretch;
+}
+
+.bar .area .car .imgCa {
+  position: relative;
+  bottom: -12px;
+}
+
+.bar .area .car .textoC {
+  height: 100%;
+  float: right;
+  font: 100% "Source Sans Pro", sans-serif;
+  color: #2B2B2B;
+  position: relative;
+  bottom: -22px;
+}
+
+.bar .area .car .textoC .carrito {
+  height: 40%;
+  float: right;
+  font: 100% "Source Sans Pro", sans-serif;
+  color: white;
+  position: relative;
+  background-color: #00e600;
+  border-radius: 10px;
+  padding: 4px;
+  text-align: center;
+  bottom: 11px;
+  left: -45px;
+}
+
+.pag {
+  background-color: #191919;
+  width: 100%;
+  height: 100%;
+  margin: auto;
+}
+
+.pag .verProducto {
+  position: relative;
+  top: 30px;
+  width: 80%;
+  height: 80%;
+  background: #2B2B2B;
+  margin: auto;
+  text-align: center;
+  color: white;
+}
+
+.pag .verProducto .nombreP {
+  font-size: 25px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 /*# sourceMappingURL=producto_vis.css.map */
