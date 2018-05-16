@@ -4,14 +4,14 @@
         "nombre": "RazerBlackWidow_X_Chroma_Gunmetal_Grey",
         "tipo": "Teclado", 
         "color": "Gris",
-        "precio": 149.99,
+        "precio": 150.000,
         "imagen": "/img/razer_blackWidow_Chroma_Gunmetal_Grey.png"},
 
        {
          "nombre": "Razer_BlackWidow_X_Chroma_Mercury_White",
         "tipo": "Teclado",
         "color": "Blanco",
-        "precio": 179.99,
+        "precio": 180.000,
         "imagen": "/img/razer_blackWidow_Chroma_Mercury_white.png"},
 
 
@@ -19,90 +19,90 @@
          "nombre": "Razer_BlackWidow_Tournament_Edition_Chroma_V2",
         "tipo": "Teclado", 
         "color": "Negro",
-        "precio": 29.95,
+        "precio": 200.000,
         "imagen": "/img/Razer_BlackWidow_Tournament_Edition_Chroma_V2.png"},
 
         {
           "nombre": "Razer_BlackWidow_Tournament_Edition_Chroma_V2_Quartz_Pink",
          "tipo": "Teclado", 
          "color": "Rosa",
-         "precio": 29.95,
+         "precio": 130.000,
          "imagen": "/img/Razer_BlackWidow_Tournament_Edition_Chroma_V2_Quartz_Pink.png"},
 
          {
           "nombre": "Razer_BlackWidow_Ultimate",
          "tipo": "Teclado", 
          "color": "Verde",
-         "precio": 29.95,
+         "precio": 100.000,
          "imagen": "/img/Razer_BlackWidow_Ultimate.png"},
 
          {
           "nombre": "Razer_BlackWidow_X_Chroma",
          "tipo": "Teclado", 
          "color": "Black",
-         "precio": 29.95,
+         "precio": 250.000,
          "imagen": "/img/Razer_BlackWidow_X_Chroma.png"},
 
          {
           "nombre": "Razer_BlackWidow_X_Tournament_Edition",
          "tipo": "Teclado", 
          "color": "Black",
-         "precio": 29.95,
+         "precio": 300.000,
          "imagen": "/img/Razer_BlackWidow_X_Tournament_Edition.png"},
 
          {
           "nombre": "Razer_BlackWidow_X_Tournament_Edition_Chroma",
          "tipo": "Teclado", 
          "color": "Negro",
-         "precio": 29.95,
+         "precio": 300.000,
          "imagen": "/img/Razer_BlackWidow_X_Tournament_Edition_Chroma.png"},
 
          {
           "nombre": "Razer_BlackWidow_X_Ultimate",
          "tipo": "Teclado", 
          "color": "Verde",
-         "precio": 29.95,
+         "precio": 80.000,
          "imagen": "/img/Razer_BlackWidow_X_Ultimate.png"},
 
          {
           "nombre": "Razer_DeathAdder_Elite",
          "tipo": "Mouse", 
          "color": "Negro",
-         "precio": 29.95,
+         "precio": 120.000,
          "imagen": "/img/Razer_DeathAdder_Elite.png"},
 
          {
           "nombre": "Razer_Lancehead_Tournament_Edition_Gunmetal_Grey",
          "tipo": "Mouse", 
          "color": "Gris",
-         "precio": 29.95,
+         "precio": 125.000,
          "imagen": "/img/Razer_Lancehead_Tournament_Edition_Gunmetal_Grey.png"},
 
          {
           "nombre": "Razer_Lancehead_Tournament_Edition_Mercury_White",
          "tipo": "Mouse", 
          "color": "Blanco",
-         "precio": 29.95,
+         "precio": 100.000,
          "imagen": "/img/Razer_Lancehead_Tournament_Edition_Mercury_White.png"},
 
          {
           "nombre": "Razer_Lancehead_Tournament_Edition_Quartz_Pink",
          "tipo": "Mouse", 
          "color": "Rosa",
-         "precio": 29.95,
+         "precio": 80.000,
          "imagen": "/img/Razer_Lancehead_Tournament_Edition_Quartz_Pink.png"},
 
          {
           "nombre": "Razer_Mamba_Tournament_Edition",
          "tipo": "Mouse", 
          "color": "Negro",
-         "precio": 29.95,
+         "precio": 150.000,
          "imagen": "/img/Razer_Mamba_Tournament_Edition.png"},
          {
           "nombre": "Razer_Naga_Hex_V2",
          "tipo": "Mouse", 
          "color": "Negro",
-         "precio": 29.95,
+         "precio": 250.000,
          "imagen": "/img/Razer_Naga_Hex_V2.png"}
  
       ]
