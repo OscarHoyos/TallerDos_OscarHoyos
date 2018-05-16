@@ -1,18 +1,64 @@
-$pink: #B83664;
-$gray: #DDDDDD;
-$green: #82BB57;
-$blue: #71CAFB;
-$yellow: #F8CA5F;
-$black: #4D4D4D;
-$fuente_titulo: 'Roboto',
-sans-serif;
-$fuente_parrafo: 'Open Sans Condensed',
-sans-serif;
-$color_primario: #00DCBC;
+$fuente-principal:  'Source Sans Pro', sans-serif;
+$color-principal: #2B2B2B;
+$color-tipografia: #ADADAD;
+$color-Bboton: #00e600;
+$color-TipoB: white;
+$color-sec: #191919;
 
-.all {
-    padding-top: 100px;
-    .generalContainer{
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.bar{
+    background-color: $color-principal;
+    width: 100%;
+    height: 50px;
+    .area{
+        margin: auto;
+        width: 80%;
+        height: 100%;
+        
+        display: flex;
+        align-content: stretch;
+           justify-content: space-between;
+        .logo{
+            display: flex;
+            width: 40%;
+            height: 100%;
+            
+        } 
+        .menu{
+            text-align: center;
+            width: 20%;
+            height: 100%;
+            font: 100% $fuente-principal;
+            display: inline-flex;
+            margin: auto;
+            a{
+                position: relative;
+                bottom: -22px;
+                color: #ADADAD;
+                text-decoration: none;
+                margin: 0 50px;
+            }
+        }
+        .buscar{
+            
+            width: 40%;
+            height: 100%;
+            .imgB{
+                position: relative;
+                float: right;
+                top: 10px;
+                right: 20;
+            }
+           
+        }
+
         
     }
 }

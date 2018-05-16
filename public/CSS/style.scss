@@ -5,10 +5,12 @@ $color-Bboton: #00e600;
 $color-TipoB: white;
 $color-sec: #191919;
 
+
 *{
     padding: 0;
     margin: 0;
 }
+
 
 .bar{
     background-color: $color-principal;
@@ -59,32 +61,195 @@ $color-sec: #191919;
         
     }
 }
-
-.productosContainer {
-    margin-left: 20%;
+.pagina{
+    background-color: #191919;
     
+.filtros{
+    margin: auto;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    float: left;
+    width: 20%;
+    height: 100%;
+    cursor: progress;
+    top: -12px;
+    right: 0;
+    left: 40px;
+    padding: 20px;
+    border: none;
+    font: 100% $fuente-principal;
+    color: rgba(255,255,255,1);
+    text-align: center;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    background: $color-principal;
+    -webkit-box-shadow: 1px 1px 1px 0 rgba(0,0,0,0.3) ;
+    box-shadow: 1px 1px 1px 0 rgba(0,0,0,0.3) ;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.2) ;
+    .precio{
+        text-align: center;
+        margin: auto;
+        -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  width: 90%;
+  height: 150px;
+  padding: 20px;
+  overflow: hidden;
+  border: none;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  font: 100% $fuente-principal;
+  color: rgba(255,255,255,1);
+  text-align: center;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  background: $color-sec;
+  -webkit-box-shadow: 0 0 6px 2px rgba(0,0,0,0.5) , 0 1px 1px 0 rgba(0,0,0,0.3) ;
+  box-shadow: 0 0 6px 2px rgba(0,0,0,0.5) , 0 1px 1px 0 rgba(0,0,0,0.3) ;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.2) ;
+        .titleSort{
+            
+        }
+        .a{
+        .h2{
+            color: white;
+text-decoration: none;
+            font-family: 100% $fuente-principal;
+        }
+    }
+    }
+
+    .tipo{
+        margin-top: 50px;
+        text-align: center;
+        margin: auto;
+        -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  width: 90%;
+  height: 150px;
+  padding: 20px;
+  overflow: hidden;
+  border: none;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  font: 100% $fuente-principal;
+  color: rgba(255,255,255,1);
+  text-align: center;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  background: $color-sec;
+  -webkit-box-shadow: 0 0 6px 2px rgba(0,0,0,0.5) , 0 1px 1px 0 rgba(0,0,0,0.3) ;
+  box-shadow: 0 0 6px 2px rgba(0,0,0,0.5) , 0 1px 1px 0 rgba(0,0,0,0.3) ;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.2) ;   
+    }
+
+    .colors{
+        margin-top: 50px;
+        text-align: center;
+        margin: auto;
+        -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  width: 90%;
+  height: 150px;
+  padding: 20px;
+  overflow: hidden;
+  border: none;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  font: 100% $fuente-principal;
+  color: rgba(255,255,255,1);
+  text-align: center;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  background: $color-sec;
+  -webkit-box-shadow: 0 0 6px 2px rgba(0,0,0,0.5) , 0 1px 1px 0 rgba(0,0,0,0.3) ;
+  box-shadow: 0 0 6px 2px rgba(0,0,0,0.5) , 0 1px 1px 0 rgba(0,0,0,0.3) ;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.2) ; 
+  
+    }
+}
+
+.sectionProducto{
+    display: flex;
+.productosContainer {
+    margin-left: 12%;
+    width: 78%;
+    .algo{
+        display: inline-block;
+        margin: auto;
     .productoContainer {
         display: inline-block;
+        margin: auto;
+        width: 100%;
+        margin: 2px;
         
         .producto {
             display: flex;
             flex-direction: column;
-            width: 200px;
-            margin-left: 170px;
+            width: 95%;
+            margin-left: 100px;
             margin-top: 100px;
+            margin: auto;
+            background: $color-principal;
+            
+            
             img {
-                height: 200px;
+                width: 100%;
+                margin: auto;
             }
-            button {
-                cursor: pointer;
-                background-color: $color_primario;
-                margin: 20px 0 20px 0;
-                color: white;
-                border-radius: 10px;
-                border: solid 0px blue;
-                height: 40px;
-                font-size: 20px;
+            .precio{
+                
+                font: 100% $fuente-principal;
+                color: #00e600;
+                text-align: center;
             }
-        }
+            .agregar{
+                padding: 5px;
+                -webkit-box-sizing: content-box;
+      -moz-box-sizing: content-box;
+      box-sizing: content-box;
+      width: 50%;
+      height: 3%;
+      cursor: pointer;
+      margin: 0 auto;
+      border: 2px solid $color-Bboton;
+      -webkit-border-radius: 40px;
+      border-radius: 40px;
+      font: 100% $fuente-principal;
+      color: $color-Bboton;
+      text-align: center;
+      -o-text-overflow: clip;
+      text-overflow: clip;
+      letter-spacing: 1px;
+      background: rgba(0,0,0,0);
+      -webkit-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+      -moz-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+      -o-transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
+      transition: background-color 0.3s cubic-bezier(0, 0, 0, 0), color 0.3s cubic-bezier(0, 0, 0, 0), width 0.3s cubic-bezier(0, 0, 0, 0), border-width 0.3s cubic-bezier(0, 0, 0, 0), border-color 0.3s cubic-bezier(0, 0, 0, 0);
     }
+    
+    .agregar:hover {
+      color: rgba(255,255,255,1);
+      background: 100% $fuente-principal;
+    }
+    
+    .agregar:active {
+      border: 2px solid 100% $fuente-principal;
+      background: 100% $fuente-principal;
+      -webkit-transition: none;
+      -moz-transition: none;
+      -o-transition: none;
+      transition: none;
+        }
+        }
+        
+}
+}
+}
+
+}
 }

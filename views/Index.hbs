@@ -3,7 +3,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="/CSS/style.css">
+    <link rel="stylesheet" href="CSS/style.css">
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400" rel="stylesheet">
     
     
@@ -29,15 +29,18 @@
 </section>
 </header>
 <body>
+    <section class="pagina">
     <h2>Carrito: <span class="carrito">0</span></h2>
-    <div class="sortby priceSort">
+
+    <div class="filtros">
+    <div class="precio">
             <h3 class="titleSort">Price</h3>
             <a href="/?precio=9.95&precio=150.99"><h2>9.95 - 150.99</h2></a>
             <a href="/?precio=19.95&precio=29.95"><h2>19.95 - 29.95</h2></a>
             <a href="/?precio=29.95&precio=4999"><h2>29.95...+</h2></a>
         </div>
 
-     <div class="sortby sideSort">
+     <div class="tipo">
             <h3 class="titleSort">tipo</h3>
             <a href="/?tipo=Mouse"><h2>Mouse</h2></a>
             <a href="/?tipo=Teclado"><h2>Teclado</h2></a>
@@ -46,7 +49,7 @@
 
         <div class="colors">
 
-
+            <h3 class="color">color</h3>
 
             <a href="/?color=Chroma">
                 <div  class="selectorColor gris">
@@ -64,27 +67,33 @@
                 </div>
             </a>
             
-            </a>
-            </div>
             
+            </div>
+            </div>
+            <div class="sectionProducto">
     <div class="productosContainer">
        
     {{#each razerproductos}}
-    <div style="flex: 1 1 40%"
+    <div class="algo" 
                 data-id="{{this._id}}">
     <div class="productoContainer">
 
-        <div class="producto" color="{{Color}}" >
+        <div class="producto" >
             <a href="/razerproductos/{{nombre}}">
-                <img src="{{imagen}}" alt="{{nombre}}">
-            </a><button> &#9951; ${{Precio}}</button>
+                <img src="{{imagen}}" alt="{{tipo}}">
+            </a>
+            
+            <h2 class="precio">${{precio}}</h2>
+            <button class="agregar">Agregar</button>
         </div>    
-        <button class="agregar">Agregar</button>
+        
     </div>
     </div>
     {{/each}}
 
     </div>
+    </div>
+    </section>
     <script src="js/cliente.js"></script>
     <script src="js/productosC.js"></script>
 </body>

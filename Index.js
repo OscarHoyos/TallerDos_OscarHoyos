@@ -15,7 +15,7 @@ const express = require ("express"),
 
     MongoClient.connect('mongodb://localhost:27017', function (err, client) {
         if (err) throw err;
-    
+        
         db = client.db('productoR');
     
         app.listen(3000);
@@ -45,9 +45,7 @@ app.get("/",(req, res) =>{
          if (req.query.color) 
          razerproductos.filter({color : req.query.color});
 
-         app.get('/checkout', (req, res) => {
-            res.render('checkout');
-        });
+         
 
     razerproductos.toArray((err, result) => {
 
@@ -61,29 +59,18 @@ app.get("/",(req, res) =>{
 
 app.get("/razerproductos/:nombre", (req, res) => {
     console.log("hola");
-    db.Collection('razerproductos').find (
+    db.collection('razerproductos').find (
         {
             nombre: req.params.nombre
         }
     ).toArray((err, result) => {
         console.log(result[0]);
-        res.render('razerproductos', {
+        res.render('producto', {
             productoR: result[0]
         });
     });
 });
 
-app.get('/productosPorIds', (req, res) => {
-    console.log(req.query.ids);
-    var arreglo = req.query.ids.split(',');
-    arreglo = arreglo.map(function(nombre) {
-        return new ObjectID(nombre);
-    });
-    var prod = db.collection('razerproductos')
-        .find({ _id: { $in: arreglo } })
-        .toArray((err, result) => {
-            res.send(result);
-        });
-});
+
 
 

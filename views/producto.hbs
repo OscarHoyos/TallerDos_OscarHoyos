@@ -8,37 +8,43 @@
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400" rel="stylesheet">
     
     
-    <title>Razer</title>
+    <title>{{productoR.nombre}}</title>
 </head>
 <header>
-
-    <div class="nav">
-        <a href="" class="home">
-            <img src="/img/logo.png" width="150px" alt="">
-        </a>
-
-        <a href="" class="menu">Fidget Cubes</a>
-        <a href="" class="menu">Fidget Spinners</a>
-        <a href="" class="menu">Shop</a>
-        <a href="" class="menu">Contact Us</a>
-
-        <a href="" class="carrito">
-            <img src="/img/iconocar.png" width="40px" alt="">
-        </a>
+<section class="bar">
+    <div class="area">
+    <div class="logo">
+        <img src="/img/logo.png" width="25%" alt="">
     </div>
+    <div class="menu">
+        <a class="Dr" href="#">Drivers</a>
+        <a class="Pr" href="#">Productos</a>
+        <a class="Fo" href="#">Foro</a>
+
+       
+    </div>
+    <div class="buscar">
+        <img class="imgB" src="/img/lupa.png" width="5%" alt="">
+    </div>
+    </div>
+</section>
 </header>
 
 <body>
-    <div class="all">
-        <div class="generalContainer">
-            <h1>{{productoR.nombre}}</h1>
-            <p>{{productoR.precio}}</p>
-            <p>{{productoR.color}}</p>
-            <p>{{productoR.tipo}}</p>
-        </div>
-    </div>
-
-
+    <div class="verProducto">
+        
+        <img src="{{productoR.imagen}}" alt="">
+   
+<h1>{{fidget.name}}</h1>
+            <p><b>Precio:</b>&nbsp;${{productoR.precio}}</p>
+            <p><b>Nombre:</b>&nbsp;{{productoR.nombre}}</p>
+            <p><b>Color:</b>&nbsp;{{productoR.color}}</p>
+            <p><b>Tipo:</b>&nbsp;{{productoR.tipo}}</p>
+</br>
+            
+            <p>{{fidget.descripcion}}</p>
+            
+ </div>
 
 </body>
 
